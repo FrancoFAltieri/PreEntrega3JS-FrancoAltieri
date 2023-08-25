@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+ <center> <h1> SHOPPING </h1></center>
+    <div id="products">
+      <h2>Productos Disponibles</h2>
+    
+        <li> PINEAPPLE EXPRESS - $1000  <button onclick="addToCart('PINEAPPLE EXPRESS', 1000)">Add to chart</button></li>
+        <li>LEMON HAZE - $1000 - <button onclick="addToCart('LEMON HAZE', 1000)">Add to chart</button></li>
+        <li>PURPLE HAZE - $2000  <button onclick="addToCart('PURPLE HAZE', 2000)">Add to chart</button></li>
+      
+    </div>
+    <div id="cart">
+      <h2>CART</h2>
+      <ul id="cart-list">
+      </ul>
+      <p>TOTAL PRICE: $<span id="total">0</span></p>
+      <button onclick="clearCart()">EMPTY CART</button>
+    </div>
+    
+
+ <script src="./main.js"></script> <!-- comando para vincular java-->
+
+ 
+
+</body>
+</html>
